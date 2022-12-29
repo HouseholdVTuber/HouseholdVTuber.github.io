@@ -1,0 +1,25 @@
+baseURL = 'https://householdvtuber.github.io/'
+languageCode = 'en-us'
+title = 'WiiKnow'
+theme = 'bare'
+publishDir = "docs"
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[params]
+mainSections = ["posts"]
+author = "HouseholdVTuber"
+email = "householdvtuber@gmail.com"
+description = 'Twitch streamer and Author of WiiKnow'
+includeAuthorInTitle = true
+# Can be any colour here: https://bulma.io/documentation/layout/hero/#colors
+# e.g "warning" or "danger" for yellow or red.
+hero_colour = "info"
+
+
+[[params.social]]
+icon = "twitter"
+url = "https://twitter.com/hous3holdvtuber"
+
