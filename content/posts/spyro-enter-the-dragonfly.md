@@ -1,7 +1,7 @@
 ---
 title: "Spyro: Enter the Dragonfly - A Review"
 date: 2022-12-28T22:02:32-05:00
-draft: true
+draft: false
 tags: [game-reviews]
 authors: ["HouseholdVTuber"]
 ---
