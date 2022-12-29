@@ -1,7 +1,7 @@
 baseURL = 'https://householdvtuber.github.io/'
 languageCode = 'en-us'
 title = 'WiiKnow'
-theme = 'bare'
+theme = 'prav'
 publishDir = "docs"
 
 [taxonomies]
@@ -12,6 +12,7 @@ publishDir = "docs"
 mainSections = ["posts"]
 author = "HouseholdVTuber"
 email = "householdvtuber@gmail.com"
+AuthorImgPath = "https://avatars.githubusercontent.com/u/112344059?v=4"
 description = 'Twitch streamer and Author of WiiKnow'
 includeAuthorInTitle = true
 # Can be any colour here: https://bulma.io/documentation/layout/hero/#colors
