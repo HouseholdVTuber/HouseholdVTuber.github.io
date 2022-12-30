@@ -21,3 +21,8 @@ I might turn this into a simple site that aggregates some neat RSS feeds
 #### To add a post...
     hugo new posts/[post name].md
 
+#### Resources I've been using for this
+* [HUGO beginners guide that had some hits](https://theibbster.medium.com/how-to-build-a-blog-a-complete-beginners-guide-to-hugo-9f831b50aad)
+* [HUGO on pages hosting tutorial](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
+* [Taxonomies docs](https://gohugo.io/content-management/taxonomies/)
+* 

@@ -4,6 +4,8 @@ title = 'WiiKnow'
 theme = 'prav'
 publishDir = "docs"
 
+disqusShortname = "householdvtuber-github-io"
+
 [taxonomies]
   category = 'categories'
   tag = 'tags'
@@ -24,3 +26,7 @@ hero_colour = "info"
 icon = "twitter"
 url = "https://twitter.com/hous3holdvtuber"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
