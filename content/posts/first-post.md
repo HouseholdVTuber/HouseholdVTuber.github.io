@@ -7,22 +7,25 @@ tags: [about, game-reviews, tech-reviews]
 ---
 
 ## Heading
-This is my very first post using the **hugo** framework! I won't try to make it read particularly well or flow any sort of story, but for now I'm going to use it as a miscellaneous note-taking page for the project...
+This is my very first post using the **hugo** framework! I won't try to make it read particularly well or flow any sort of story, but for now I'm going to use it as a miscellaneous note-taking page for the project
 
-I might turn this into a simple site that aggregates some neat RSS feeds
-
-    If I tab it looks like this
 &nbsp;
-#### Post Ideas
+#### Post Notes
 * Getting Sonic '06 Running w/ Xenia, solutions to common runtime issues (e.g. F4 to reload graphics cache and fix vertex explosions)
-* Competitive Pokemon highlights
-* Thoughtpost on a recent game. Especially Spyro: Enter the Dragonfly, I've got some to say about that
+* Pokemon romhack reviews
 
-#### To add a post...
+#### To start local server...
+    hugo server -D
+#### To create a post...
     hugo new posts/[post name].md
 
+#### Committing changes...
+    hugo
+    git add .
+    git commit -m "what'd you do"
+    git push
+
 #### Resources I've been using for this
-* [HUGO beginners guide that had some hits](https://theibbster.medium.com/how-to-build-a-blog-a-complete-beginners-guide-to-hugo-9f831b50aad)
-* [HUGO on pages hosting tutorial](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
+* [HUGO beginners guide](https://theibbster.medium.com/how-to-build-a-blog-a-complete-beginners-guide-to-hugo-9f831b50aad)
+* [HUGO on Github Pages hosting tutorial](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
 * [Taxonomies docs](https://gohugo.io/content-management/taxonomies/)
-* 
