@@ -7,6 +7,7 @@ authors: ["HouseholdVTuber"]
 ---
 <!--more-->
 ![Well said, Zoe](https://i.imgur.com/kP19keK.png)
+*Zoe reprises her role as the checkpoint fairy*
 
 ## Introduction
 Hello and welcome to the first WiiKnow retro-review! The year is 2002, the holiday season is upon us, and Universal Interactive wants their new Spyro game on the shelves **NOW**! Following the success of Spyro's original trilogy on Sony's Playstation, fans were no doubt excited to see what tools the console's successor offered our purple dragon. Though Spyro: Season of Ice and Spyro: Season of Flame had released for Nintendo's Gameboy Advance in the interim since Spyro 3, Enter the Dragonfly would be the fourth "mainline" entry in the series... There's a whole history lecture to be had here, but [Mr. FO1 and tealgamemaster](https://www.youtube.com/watch?v=FHLZEuyXFKE) paint the whole story in more complete yet succinct terms than I ever could (in one article).
@@ -31,7 +32,8 @@ The Dragon Realms serve as Spyro's hub world, dotted with cute, themed entrances
 Check Six Studios did a serviceable job recreating the controls players will have come to expect from the franchise: charging, jumping, gliding, hovering, and head bashing are all there and I can count on one hand how many times a failure to glide across a gap or avoid damage felt like a responsibility of the controls. However, that's not to say that it's a terribly tight experience. Spyro often jittered into the air after finishing a ladder climb, crashing onto the ground with an "ouch" after falling all of one or two feet, and I wrestled with the camera more often and more hopelessly than I remember experiencing with entries both older and newer than Enter the Dragonfly. These quirks simply didn't result in avoiding unnecessary damage because the game is, overall, very easy. Enemies hardly gather in dense swarms and I'd wager Ripto's never engaged with anything sporting the term, "mixed unit tactics". The minigame challenges were usually a breeze, with a glaring exception in Jurassic Jungle's "Tower of Scary and Ridiculous Heights". To be fair, it's in the very last level of the game, but it has certainly earned a reputation among those who've seen this game to the end. 
 
 !["I'll be back."](https://i.imgur.com/SO1wOKh.png)
-
+*a T-1000 Riptoc, too big to be charged and vulnerable to Spyro's electric breath*\
+\
 Controls and minigames aside, most levels are built from a collection of large, empty rooms with enemies sparsley placed and occasionally directly blocking your path. It's simple, with a noticeable absence of challenging platform sections you could find off the beaten path in Spyro 1-3. When the level designers managed to construct a decently tuned platform challenge, it was often labeled a minigame and containerized within a sublevel. Very rarely was a platform or combat challenge integrated neatly into a world's geometry. 
 
 ## The Presentation
