@@ -98,6 +98,62 @@
     
     <div class="pad">
 <div class="date">
+    <time pubdate="2023-01-16">January 16, 2023</time>
+    <span class="author">by HouseholdVTuber</span>
+</div>
+
+<article>
+    <h2><a href="https://householdvtuber.github.io/posts/xenia-setup-tutorial/">Xenia Setup - Tutorial</a></h2>
+    <div class="tags">
+        
+        
+        <a href="/tags/tutorials" class="pure-button">tutorials</a>
+        
+    </div>
+    <p><img src="https://repository-images.githubusercontent.com/7550637/e819cd00-6d5a-11e9-9633-e837c2ffe515" alt="The Xenia Logo"></p>
+<h1 id="introduction">Introduction</h1>
+<p>Hello and welcome to my little tutorial on setting up the &ldquo;Xenia&rdquo; Xbox 360 emulator! This article is intended to serve as a Getting Started guide, one which takes the least complicated path to running an acceptable 360 emulation experience on your PC.</p>
+<h2 id="step-1---download-xenia">Step 1 - Download Xenia</h2>
+<p>Unless yours is a special circumstance outside the scope of this article, you&rsquo;ll want to download the latest release of Xenia for Windows. The project is ever-evolving and hosted on Github, so a direct link would likely be deprecated some time after this writing. You can most reliably download the latest release from the project&rsquo;s <a href="https://github.com/xenia-project/release-builds-windows">Github repository</a>. Scroll down to the contents of the README.md and you&rsquo;ll see a <em>Latest</em> hyperlink, pictured below:</p>
+<p><img src="https://i.imgur.com/rVfFcZS.png" alt="Link to Latest Xenia"></p>
+<p>On the following page, click on the <em>xenia_master.zip</em> file link to start your download. The version tag at the top may differ from this screenshot, but don&rsquo;t be alarmed:</p>
+<p><img src="https://i.imgur.com/opVzyCV.png" alt="Current Latest"></p>
+<h2 id="step-2---unzip-the-xenia_masterzip-contents">Step 2 - Unzip the xenia_master.zip contents</h2>
+<p>Once you&rsquo;ve downloaded the latest <em>xenia_master.zip</em>, you&rsquo;ll need to extract its contents somewhere. Feel free to put these anywhere you want; in this case, I chose to make a &ldquo;xenia&rdquo; folder on the root of my C:\ drive:</p>
+<pre><code>C:\xenia
+</code></pre>
+<p><img src="https://i.imgur.com/3q1fKCQ.png" alt="Xenia folder contents"></p>
+<p>Your folder doesn&rsquo;t have to be named &ldquo;xenia&rdquo; exactly, but its contents should look like this.</p>
+<h2 id="step-3---the-optional-but-very-recommended-portabletxt">Step 3 - The Optional, but Very Recommended Portable.txt</h2>
+<p>As of this writing, Xenia does not have a mature GUI. Most of the configuration is done through Notepad++, or whatever text editor you choose, and config files. And while it isn&rsquo;t required, Dear Reader, I advise you to add a &ldquo;portable.txt&rdquo; file to your xenia folder alongside those initial 3 files so that your folder structure looks like this:</p>
+<p><img src="https://i.imgur.com/ytqRtpC.png" alt="Xenia folder contents with Portable.txt"></p>
+<p>You don&rsquo;t need to write anything into the file. As long as Xenia detects a <em>portable.txt</em> in its running directory, then it will publish your save files to a &ldquo;content&rdquo; subfolder in this directory (it will make this directory for you when you save something). By default it will try to save your games to that weird forest of app data in your user files; if you&rsquo;ve used Windows a lot in the last decade, you&rsquo;ll know what I&rsquo;m talking about. This can cause issues with certain games and, since Xenia doesn&rsquo;t actually &ldquo;install&rdquo; itself as an application or touch the registry anyway, I think it&rsquo;s cleaner to keep all of your Xenia stuff in one place.</p>
+<h2 id="step-4---find-a-game-and-launch-xenia">Step 4 - Find a game and launch Xenia!</h2>
+<p>This should be the part where I tell you that I can&rsquo;t actually link to the ISO or ROM images, but to test your Xenia setup, just grab the PAL Sonic the Hedgehog 2006 game .ISO from <a href="https://archive.org/details/sonic-the-hedgehog-2006-xbox-360">The Internet Archive</a>. This game&rsquo;s been delisted from every storefront and Sega seems content to keep it that way, and I trust Archive.org as a host. This page should have a link to download the 7Zip archive, pictured below:</p>
+<p><img src="https://i.imgur.com/Bk90Buu.png" alt="7Z Link"></p>
+<p>If you don&rsquo;t already have 7Zip installed as an archive software, feel free to go download and install it from <a href="https://www.7-zip.org/">7-zip.org</a>. You may use any file archiver which supports the .7z extension, or source your own ISO. Though when it comes to finding this stuff, be wary of malicious sites. I can&rsquo;t assume responsibility for what happens to your computer if you download Crackdown.iso.exe from a malicious source!</p>
+<p>However you go about it, make sure the .ISO image of the game you want to play is placed somewhere that Xenia can open it from (that means, outside of the 7z archive or any similar compression format). Now go ahead and double-click the <em>xenia.exe</em> in your xenia folder!</p>
+<h2 id="step-5---open-your-game-iso-with-xenia">Step 5 - Open your game ISO with Xenia</h2>
+<p>Xenia will open to a black screen.  Don&rsquo;t be alarmed, just click [File] along the top and then <em>Open&hellip;</em></p>
+<p><img src="https://i.imgur.com/Zv5iRty.png" alt="Xenia Start Screen"></p>
+<p>&hellip; This will open a Windows File Explorer window. Navigate to your .ISO image (in our case, <em>Sonic the Hedgehog [PAL][NTSCU].iso</em>) and click it.</p>
+<h2 id="step-6-troubleshoot-and-enjoy">Step 6: Troubleshoot and Enjoy!</h2>
+<p><img src="https://i.imgur.com/HjihEPk.png" alt="Sonic Title Screen"></p>
+<p>&hellip; And there you go! This concludes the &ldquo;Getting Started&rdquo; tutorial, but I&rsquo;ll be adding random tips below to help resolve common issues. Assuming your PC has decent &ldquo;gaming&rdquo; specs (I&rsquo;m sporting an old GTX 1070 myself), you shouldn&rsquo;t have to finangle much to get Sonic 2006 running well - or, as well as one can reasonably expect Sonic 2006 to run. You should notice drastically reduced loading times compared to the native hardware experience!</p>
+<h3 id="helpful-links">Helpful Links</h3>
+<p><a href="https://github.com/xenia-project/xenia/wiki/FAQ">The Xenia Project FAQ</a></p>
+<p><a href="https://github.com/xenia-project/game-compatibility/issues">The Game Compatibility List</a></p>
+<ul>
+<li>This list is especially helpful for troubleshooting specific games. Type the game&rsquo;s name into the search bar, click the result, and you&rsquo;ll likely find plenty of comments related to it.</li>
+</ul>
+</article></div>
+    <div class="pad"></div>
+
+    
+
+    
+    <div class="pad">
+<div class="date">
     <time pubdate="2022-12-28">December 28, 2022</time>
     <span class="author">by HouseholdVTuber</span>
 </div>
@@ -273,6 +329,12 @@ git push
             <ul class="pure-menu-list">
                 
                 <li class="pure-menu-item">
+                    <a href="https://householdvtuber.github.io/posts/xenia-setup-tutorial/" class="pure-menu-link">Xenia Setup - Tutorial<br>
+                        <small></small>
+                    </a>
+                </li>
+                
+                <li class="pure-menu-item">
                     <a href="https://householdvtuber.github.io/posts/spyro-enter-the-dragonfly/" class="pure-menu-link">Spyro: Enter the Dragonfly - A Review<br>
                         <small></small>
                     </a>
@@ -301,6 +363,9 @@ git push
                 <small>(2)</small></a>
             
             
+            
+            <a href="/tags/tutorials" class="pure-button"> tutorials
+                <small>(2)</small></a>
             
             
             
